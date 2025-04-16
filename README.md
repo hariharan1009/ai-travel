@@ -61,6 +61,20 @@ A modern travel booking website featuring Dubai tour packages with interactive i
    ```bash
    git clone https://github.com/yourusername/dreamtrails.git
    cd dreamtrails
+   📦 Composer Dependencies
+This project uses the following PHP packages managed via Composer:
+
+     composer require vlucas/phpdotenv
+    composer require guzzlehttp/guzzle
+🔐 vlucas/phpdotenv
+Used to manage sensitive configuration securely through environment variables.
+Make sure to create a .env file in the root directory and define your keys, for example
+
+        API_KEY=your_api_key_here
+        BOT_ENDPOINT=https://your-bot-endpoint.com
+🌐 guzzlehttp/guzzle
+A PHP HTTP client used to make API requests.
+In this project, it's used by the chatbot backend to communicate with external services or APIs.
 Configuration:
 
 Update Razorpay API key in JavaScript:
