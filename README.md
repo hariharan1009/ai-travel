@@ -5,7 +5,8 @@
 A modern travel booking website featuring Dubai tour packages with interactive image galleries, secure payment processing, and responsive design.
 
 ## Features
-
+-  🧠 **Chatbot Assistant Integration** 
+  -Interactive chatbot for answering booking-related queries, powered by PHP backend and Guzzle HTTP client.
 - 🏙️ **Dubai Tour Package Showcase**
   - Detailed itinerary with daily plans
   - High-resolution image slideshow
